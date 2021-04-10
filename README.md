@@ -24,7 +24,7 @@ import org.openjdk.jmh.infra.Blackhole
 @Threads(1)
 class FibonacciJmhBenchmark {
 
-  private val fibonacciN = 25
+  private val fibonacciN = 20
 
   @Benchmark
   def fibonacciNaive(bh: Blackhole): Unit = {
